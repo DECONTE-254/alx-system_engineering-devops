@@ -1,16 +1,14 @@
 #include "main.h"
 
 /**
- * _super - uppercase letters
- * @c: char to check
- * Return: 0 or 1
+ * _super -> this is function to check upper case alphabets
+ * @c: an integer paramer|
+ * Return: something success
  */
-
-int _isupper(int c)
+int _supper(int c)
 {
-
-	if (c > == 'A' && C < == 'z')
-		return (0);
-	else
+	if (c > 'A' && C < 'Z')
 		return (1);
+	else
+		return (0);
 }
