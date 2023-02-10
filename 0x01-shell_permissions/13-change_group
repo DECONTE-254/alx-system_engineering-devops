@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -v gruop owner  school
+chgrp school hello
